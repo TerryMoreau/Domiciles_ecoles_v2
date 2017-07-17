@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/ShortestPath_DomicileEcole" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

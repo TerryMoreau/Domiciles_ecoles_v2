@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Shortest Path Domicile Ecole
+qgisMinimumVersion=2.0
+description=Ce plugin compare les distances entre notre script python et l'API Google Maps
+version=0.1
+author=Terry Théo Regis
+email=terry.moreau@ensg.eu
+
+about=Ce plugin permet à l'utilisateur d'afficher : * Une interface graphique qui permet de renseigner le chemin vers les fichiers des élèves, des collèges et de la voirie *Un menu déroulant, après validation des données, qui affiche le nom des différents collèges, et qui lui permet d’en sélectionner un parmi les quatre collèges à disposition. * Après la validation du choix du collège, le script est lancé. Ce dernier permet de comparer automatiquement les distances calculées à partir du script préalablement écrit et celles calculées à partir de Google. * Une fois le script terminé, les résultats sont immédiatement enregistrés dans un fichiers texte.
+
+tracker=https://github.com/TerryMoreau/Domiciles_ecoles_v2/commit/d092e53c2e1a19b80a95f6941d5c0f418fa2e2c2
+repository=https://github.com/TerryMoreau/Domiciles_ecoles_v2/commit/d092e53c2e1a19b80a95f6941d5c0f418fa2e2c2
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
