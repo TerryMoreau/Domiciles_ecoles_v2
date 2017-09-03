@@ -1,7 +1,7 @@
 Plugin Builder Results
 
-Your plugin ShortestPath_DomicileEcole was created in:
-    C:\Users\Lena\.qgis2\python\plugins\pluginbuilder\ShortestPath_DomicileEcole
+Your plugin college was created in:
+    C:\Users\Lena\.qgis2\python\plugins\college
 
 Your QGIS plugin directory is located at:
     C:/Users/Lena/.qgis2/python/plugins
@@ -17,11 +17,11 @@ What's Next:
 
   * Test the plugin by enabling it in the QGIS plugin manager
 
-  * Customize it by editing the implementation file: ``Shortest_Path_Domicile_Ecole.py``
+  * Customize it by editing the implementation file: ``college.py``
 
   * Create your own custom icon, replacing the default icon.png
 
-  * Modify your user interface by opening ShortestPath_DomicileEcole.ui in Qt Designer
+  * Modify your user interface by opening college.ui in Qt Designer
 
   * You can use the Makefile to compile your Ui and resource files when
     you make changes. This requires GNU make (gmake)

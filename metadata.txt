@@ -7,17 +7,17 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Shortest Path Domicile Ecole
+name=college
 qgisMinimumVersion=2.0
-description=Ce plugin compare les distances entre notre script python et l'API Google Maps
+description=calcul plus courte distance domicile ecole
 version=0.1
-author=Terry Théo Regis
+author=Terry
 email=terry.moreau@ensg.eu
 
-about=Ce plugin permet à l'utilisateur d'afficher : * Une interface graphique qui permet de renseigner le chemin vers les fichiers des élèves, des collèges et de la voirie *Un menu déroulant, après validation des données, qui affiche le nom des différents collèges, et qui lui permet d’en sélectionner un parmi les quatre collèges à disposition. * Après la validation du choix du collège, le script est lancé. Ce dernier permet de comparer automatiquement les distances calculées à partir du script préalablement écrit et celles calculées à partir de Google. * Une fois le script terminé, les résultats sont immédiatement enregistrés dans un fichiers texte.
+about=Calcul plus courte distance domicile ecole
 
-tracker=https://github.com/TerryMoreau/Domiciles_ecoles_v2/commit/d092e53c2e1a19b80a95f6941d5c0f418fa2e2c2
-repository=https://github.com/TerryMoreau/Domiciles_ecoles_v2/commit/d092e53c2e1a19b80a95f6941d5c0f418fa2e2c2
+tracker=github.com
+repository=test
 # End of mandatory metadata
 
 # Recommended items:

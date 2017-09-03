@@ -1,11 +1,11 @@
 #/***************************************************************************
-# ShortestPath_DomicileEcole
+# college
 #
-# Ce plugin compare les distances entre notre script python et l'API Google Maps
+# calcul plus courte distance domicile ecole
 #							 -------------------
-#		begin				: 2017-07-17
+#		begin				: 2017-08-25
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2017 by Terry Théo Regis
+#		copyright			: (C) 2017 by Terry
 #		email				: terry.moreau@ensg.eu
 # ***************************************************************************/
 #
@@ -38,15 +38,15 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	Shortest_Path_Domicile_Ecole.py Shortest_Path_Domicile_Ecole_dialog.py
+	college.py college_dialog.py
 
-PLUGINNAME = ShortestPath_DomicileEcole
+PLUGINNAME = college
 
 PY_FILES = \
 	__init__.py \
-	Shortest_Path_Domicile_Ecole.py Shortest_Path_Domicile_Ecole_dialog.py
+	college.py college_dialog.py
 
-UI_FILES = Shortest_Path_Domicile_Ecole_dialog_base.ui
+UI_FILES = college_dialog_base.ui
 
 EXTRAS = metadata.txt icon.png
 
